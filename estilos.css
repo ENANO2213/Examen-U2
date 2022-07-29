@@ -1,0 +1,80 @@
+body {
+    background: var(--fondo);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.img {
+    width: 250px;
+    height: 150px;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.contenedor {
+    width: 90%;
+    margin: auto;
+}
+
+.logo {
+    width: 80px;
+    height: 60px;
+    margin-top: 50px;
+}
+
+nav a {
+    color: blue;
+    margin-right: 20px;
+    align-items: center;
+    font-style: bold;
+    font-size: 30px;
+    
+}
+
+nav a:hover,
+nav a.activo {
+    color: black;
+}
+
+:root {
+    --fondo: white;
+}
+
+.section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+}
+
+input {
+    width: 500px;
+    padding: 10px;
+    outline: none;
+    border: 5px solid black;
+    font-weight: 600;
+}
+
+#listajuegos {
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+}
+
+.filtro {
+    display: none;
+}
